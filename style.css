@@ -66,6 +66,8 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
     background: #FE5F55;
     height: 100px;
     width: 100%;
@@ -172,45 +174,17 @@ h2 {
     top: 87px;
 }
 
-.recette {
-    gap: 0px; 
-}
-
-.stepone {
+.step {
     margin-top: 20px;
     display: flex;
     align-items: center;
+    gap: 0px;
 }
 
-.steptwo {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
+.stepbtn {
+    flex-shrink: 0;
 }
 
-.stepthree {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.stepfour {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.stepfive {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.stepsix {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-}
 
 .ingredients {
     position: absolute;
