@@ -48,9 +48,32 @@ table {
 }
 
 
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.searchbarre {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+
 .logo {
     width: 61px;
     height: 34.41px;
+
 }
 
 .card-container {
@@ -59,6 +82,11 @@ table {
 
 body {
     font-size: large;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
 }
 
 .bobun {
@@ -150,7 +178,7 @@ header {
 .lesaviezvous {
     border-radius: 10px;
     background-color: #DCFFE3;
-    width: 300px;
+    width: 700px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
