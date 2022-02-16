@@ -48,13 +48,12 @@ table {
 }
 
 
-.card {
-    margin-left: auto;
-    margin-right: auto;
+.card-container {
+    margin-top: 60px;
 }
 
-p {
-    margin-top: 30px;
+body {
+    font-size: large;
 }
 
 .bobun {
@@ -78,16 +77,27 @@ header {
     height: auto;
     left: 15px;
     top: 287px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .descriptioncontainer {
+    margin-top: 20px;
     display: flex;
+    width: 100%;
 }
 
 .categories {
-    margin-right: 40%;
-    margin-left: 40px;
+    width: 50%;
     background-color: red;
+}
+
+.jauges {
+    width: 50%;
+    background-color: blue;
 }
 
 .img-plat {
@@ -97,10 +107,19 @@ header {
     top: 78px;
 }
 
+.new {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
 .lesaviezvous {
-    margin-top: 50px;
-    margin-left: 100px;
-    background: #DCFFE3;
+    background-color: #DCFFE3;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h2 {
@@ -108,8 +127,58 @@ h2 {
     font-size: 40px;
 }
 
-.recette {
-    margin-top: 10px;
+/* .ingredients {
+    display: flex;
+} */
+
+.tomato {
+    background-color: #F9EEE7;
+    width: 68px;
+    height: 82px;
+    left: 0px;
+    top: 87px;
+}
+
+.stepone {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.steptwo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stepthree {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stepfour {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stepfive {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stepsix {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .ingredients {
@@ -118,6 +187,10 @@ h2 {
     height: 82px;
     left: 0px;
     top: 87px;
+}
+
+.etapeunep {
+    margin-top: 10px;
 }
 
 @media (min-width: 370px) {
