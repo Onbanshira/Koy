@@ -48,6 +48,11 @@ table {
 }
 
 
+.logo {
+    width: 61px;
+    height: 34.41px;
+}
+
 .card-container {
     margin-top: 60px;
 }
@@ -88,16 +93,43 @@ header {
     margin-top: 20px;
     display: flex;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .categories {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
     background-color: red;
 }
 
 .jauges {
-    width: 50%;
+    width: 80%;
     background-color: blue;
+}
+
+.time {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.difficulty {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.calorie {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .img-plat {
@@ -114,6 +146,7 @@ header {
 }
 
 .lesaviezvous {
+    border-radius: 10px;
     background-color: #DCFFE3;
     width: 300px;
     padding-top: 20px;
@@ -139,46 +172,44 @@ h2 {
     top: 87px;
 }
 
+.recette {
+    gap: 0px; 
+}
+
 .stepone {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .steptwo {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .stepthree {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .stepfour {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .stepfive {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .stepsix {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .ingredients {
