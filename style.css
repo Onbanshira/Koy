@@ -133,6 +133,8 @@ label {
 }
 
 .recipe {
+    color: #2b3464;
+    font-weight: bold;
     border: 1px solid #D0C7C1;
     background-color: white;
     border-radius: 10px;
@@ -309,8 +311,9 @@ h2 {
     font-size: 40px;
 }
 
+
 .step {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -409,8 +412,31 @@ li {
 @media (min-width: 800px) {
     header a{
         display: block;
+        padding: 30px;
     }
     header svg{
         display: none;
     }
+
+    .bobun {
+        margin-top: 1px;
+    }
+
+    .right-container {
+    background-color: #F9EEE7;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    float: right;
+    height: 970px;
+    }
+
+    .left-container {
+        width: 45%;
+    }
+
+    .big-container {
+        margin-top: 20px;
+    }
+
 }
