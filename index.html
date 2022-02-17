@@ -29,9 +29,11 @@
     </svg>
 </div>
 
-<div class="under-menu">
-    <p class="recipe">Recette</p>
-    <p class="menu">Menu</p>
+<div class="under-menu-container">
+    <div class="under-menu">
+        <p class="recipe">Recette</p>
+        <p class="menu">Menu</p>
+    </div>
 </div>
 
 
@@ -47,7 +49,7 @@
                 <div class="time"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.0471 0C5.40433 0 0 5.6075 0 12.5C0 19.3925 5.40433 25 12.0471 25C18.6899 25 24.0942 19.3925 24.0942 12.5C24.0942 5.6075 18.6899 0 12.0471 0ZM18.9742 13.75H10.8424V5H13.2518V11.25H18.9742V13.75Z" fill="black"/>
                     </svg>                    
-                <p>20 minutes</p></div>
+                <p class="time-police">20 minutes</p></div>
                 <div class="difficulty"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_101_938)">
                     <path d="M4.71447 11.415L12.1811 12.8778C12.2421 12.8778 12.3029 12.8778 12.3336 12.9082C12.7602 12.9082 13.0955 12.573 13.1259 12.1463C13.1259 11.7197 12.7906 11.3844 12.364 11.354L4.71446 11.3542C4.68385 11.3542 4.65345 11.415 4.71446 11.415L4.71447 11.415ZM12.7297 11.9331C12.8211 12.1465 12.7601 12.3902 12.5469 12.5122C12.3334 12.6036 12.0898 12.5426 11.9678 12.3294C11.8764 12.1159 11.9374 11.8723 12.1506 11.7503C12.3944 11.6285 12.6383 11.7199 12.7297 11.9331Z" fill="black"/>
@@ -68,30 +70,45 @@
                     </clipPath>
                     </defs>
                     </svg>
-                <p>Facile</p></div>
+                <p class="time-police">Facile</p></div>
                 <div class="calorie"><svg width="21" height="25" viewBox="0 0 21 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14.8992 8.10173C9.6852 4.64161 12.0447 1.2749 12.0447 1.2749C6.97602 4.19338 5.85396 8.64786 7.09564 14.2799C5.26943 12.7992 5.00489 11.0456 5.0647 8.73312C2.73936 11.2206 2.32123 13.853 2.47483 16.7034C2.62186 19.6329 4.27544 22.2769 6.84505 23.6915C9.41442 25.1058 12.5331 25.0886 15.0873 23.6457C17.6409 22.2028 19.2653 19.5403 19.3796 16.6093C19.5588 12.8846 17.9802 10.1453 14.8995 8.10191L14.8992 8.10173ZM11.4858 22.7791C10.3212 22.7832 9.18197 22.4401 8.21351 21.7933C8.44386 21.8159 8.67422 21.8275 8.90458 21.8275C10.9016 21.8186 12.8141 21.0198 14.2242 19.6058C15.6343 18.1916 16.4278 16.277 16.4311 14.28C16.4311 14.0496 16.4198 13.8192 16.3968 13.5889V13.5886C17.0442 14.5496 17.3915 15.6812 17.3953 16.8398C17.3974 18.4127 16.7748 19.9222 15.6643 21.0359C14.5536 22.1499 13.0459 22.777 11.4729 22.7791H11.4858Z" fill="black"/>
                     </svg>              
-                <p>852 Kcal</p></div>
+                <p class="time-police">852 Kcal</p></div>
                 <div class="price"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8.28247 14.8609C8.39692 16.3516 9.53236 17.5125 11.5683 17.65L11.5683 18.75L12.4718 18.75L12.4718 17.6422C14.5801 17.4891 15.8119 16.3203 15.8119 14.6234C15.8119 13.0812 14.8692 12.2859 13.1841 11.8734L12.4718 11.6984L12.4718 8.70313C13.3754 8.80938 13.9506 9.32187 14.0892 10.0312L15.6734 10.0312C15.5589 8.59531 14.3723 7.47187 12.4718 7.35L12.4718 6.25L11.5683 6.25L11.5683 7.37344C9.76878 7.55625 8.54148 8.67969 8.54148 10.2688C8.54148 11.675 9.45405 12.5688 10.9705 12.9359L11.5683 13.0891L11.5683 16.2672C10.6422 16.1219 10.0293 15.5953 9.89076 14.8609L8.28247 14.8609ZM11.5608 11.4766C10.6723 11.2625 10.1904 10.8266 10.1904 10.1703C10.1904 9.43594 10.71 8.88594 11.5683 8.725L11.5683 11.475L11.5608 11.475L11.5608 11.4766ZM12.6029 13.3406C13.6826 13.6 14.181 14.0203 14.181 14.7625C14.181 15.6094 13.5606 16.1906 12.4718 16.2969L12.4718 13.3094L12.6029 13.3406Z" fill="black"/>
                     <path d="M12.0471 23.4375C9.2514 23.4375 6.5702 22.2852 4.59334 20.234C2.61648 18.1828 1.50589 15.4008 1.50589 12.5C1.50589 9.59919 2.61648 6.8172 4.59334 4.76602C6.5702 2.71484 9.2514 1.5625 12.0471 1.5625C14.8428 1.5625 17.524 2.71484 19.5009 4.76602C21.4777 6.8172 22.5883 9.59919 22.5883 12.5C22.5883 15.4008 21.4777 18.1828 19.5009 20.234C17.524 22.2852 14.8428 23.4375 12.0471 23.4375ZM12.0471 25C15.2422 25 18.3064 23.683 20.5657 21.3388C22.825 18.9946 24.0942 15.8152 24.0942 12.5C24.0942 9.18479 22.825 6.00537 20.5657 3.66116C18.3064 1.31696 15.2422 -5.01007e-07 12.0471 -3.95985e-07C8.85201 -2.90963e-07 5.78778 1.31696 3.52851 3.66117C1.26924 6.00537 2.80421e-07 9.18479 3.81638e-07 12.5C4.82854e-07 15.8152 1.26925 18.9946 3.52852 21.3388C5.78779 23.683 8.85201 25 12.0471 25Z" fill="black"/>
                     <path d="M12.047 21.0937C9.85042 21.0937 7.74376 20.1883 6.19052 18.5767C4.63727 16.9651 3.76466 14.7792 3.76466 12.5C3.76466 10.2208 4.63727 8.03494 6.19052 6.4233C7.74376 4.81166 9.85042 3.90625 12.047 3.90625C14.2437 3.90625 16.3503 4.81166 17.9036 6.4233C19.4568 8.03494 20.3294 10.2208 20.3294 12.5C20.3294 14.7792 19.4568 16.9651 17.9036 18.5767C16.3503 20.1883 14.2437 21.0937 12.047 21.0937ZM12.047 21.875C13.2336 21.875 14.4085 21.6325 15.5047 21.1614C16.6009 20.6902 17.597 19.9997 18.436 19.1291C19.275 18.2586 19.9405 17.2251 20.3946 16.0877C20.8487 14.9502 21.0824 13.7311 21.0824 12.5C21.0824 11.2689 20.8487 10.0498 20.3946 8.91234C19.9405 7.77491 19.275 6.74142 18.436 5.87087C17.597 5.00032 16.6009 4.30977 15.5047 3.83863C14.4085 3.36749 13.2336 3.125 12.047 3.125C9.65073 3.125 7.35256 4.11272 5.6581 5.87087C3.96365 7.62903 3.01172 10.0136 3.01172 12.5C3.01172 14.9864 3.96365 17.371 5.6581 19.1291C7.35256 20.8873 9.65073 21.875 12.047 21.875Z" fill="black"/>
                     </svg>                    
-                <p>Élevé</p></div>
+                <p class="time-police">Élevé</p></div>
             </div>
+
             <div class="jauges">
-                <label for="file">Calorie</label>
-                <progress id="file" max="100" value="70"> 70% </progress>
-                <p>480/1872kcal</p>                 
+                <div class="category-jauges">
+                    <label for="file">Calorie</label>
+                <progress id="file" max="100" value="70"> 70% </progress><div class="cal-jauges"><p class="calorie-police">480/1872kcal</p>
+                </div>            
+                </div>  
+                <div class="category-jauges">
                 <label for="file">Protéines</label>
-                <progress id="file" max="100" value="65"> 70% </progress><p>480/1872kcal</p>
+                <progress id="file" max="100" value="65"> 70% </progress><div class="cal-jauges"><p class="calorie-police">480/1872kcal</p>
+                </div>
+                </div>  
+                <div class="category-jauges">
                 <label for="file">Glucide</label>
-                <progress id="file" max="100" value="81"> 70% </progress><p>480/1872kcal</p>                 
+                <progress id="file" max="100" value="81"> 70% </progress><div class="cal-jauges"><p class="calorie-police">480/1872kcal</p>
+                </div>            
+                </div>  
+                <div class="category-jauges">
                 <label for="file">Lipide</label>
-                <progress id="file" max="100" value="40"> 70% </progress><p>480/1872kcal</p>                 
+                <progress id="file" max="100" value="40"> 70% </progress><div class="cal-jauges"><p class="calorie-police">480/1872kcal</p>
+                </div>         
+                </div>  
+                <div class="category-jauges">
                 <label for="file">Fibre</label>
-                <progress id="file" max="100" value="60"> 70% </progress><p>480/1872kcal</p>                
+                <progress id="file" max="100" value="60"> 70% </progress><div class="cal-jauges"><p class="calorie-police">480/1872kcal</p>
+                </div>
+            </div>            
             </div>
         </div>
     </div>
@@ -105,15 +122,14 @@
     <h2>Ingrédients</h2>
     <div class="ingredients-container">
         <ul>
-            <li><img src="images/tomato.webp" alt="">Tomate</li>
-            <li><img src="images/salad.webp" alt="">Salade</li>
-           <li><img src="images/carrot.webp" alt="">Carottes</li>
-           <li><img src="images/tomato.webp" alt="">Oignon</li>
-           <li><img src="images/ciboul.webp" alt="">Ciboulettes</li>
-           <li><img src="images/viande.webp" alt="">Steak</li>
-           <li><img src="images/menthe.webp" alt="">Menthe</li>
-           <li><img src="images/tomato.webp" alt="">Sauce</li>
-           <li><img src="images/ail.webp" alt="">Ail</li>
+            <li><img class="ingredients-pics" src="images/tomato.webp" alt="">Tomate <div class="quantity-ingredients"><p>1</p></div></li>
+            <li><img class="ingredients-pics" src="images/salad.webp" alt="">Salade <div class="quantity-ingredients"><p>1</p></div></li>
+           <li><img class="ingredients-pics" src="images/carrot.webp" alt="">Carottes <div class="quantity-ingredients"><p>4</p></div></li>
+           <li><img class="ingredients-pics" src="images/tomato.webp" alt="">Oignons <div class="quantity-ingredients"><p>3</p></div></li>
+           <li><img class="ingredients-pics" src="images/ciboul.webp" alt="">Ciboulettes <div class="quantity-ingredients"><p>10g</p></div></li>
+           <li><img class="ingredients-pics" src="images/viande.webp" alt="">Steak <div class="quantity-ingredients"><p>150g</p></div></li>
+           <li><img class="ingredients-pics" src="images/menthe.webp" alt="">Menthe <div class="quantity-ingredients"><p>2g</p></div></li>
+           <li><img class="ingredients-pics" src="images/tomato.webp" alt="">Sauce <div class="quantity-ingredients"><p>15g</p></div></li>
     </ul>
     </div>
 
@@ -155,9 +171,12 @@
             <path d="M10.99 17.51C10.99 16.766 11.038 16.034 11.134 15.314C11.242 14.594 11.422 13.916 11.674 13.28C11.926 12.632 12.274 12.062 12.718 11.57C13.162 11.066 13.72 10.676 14.392 10.4C15.076 10.112 15.904 9.968 16.876 9.968C17.128 9.968 17.404 9.98 17.704 10.004C18.016 10.028 18.268 10.07 18.46 10.13V11.48C18.244 11.408 17.998 11.354 17.722 11.318C17.458 11.282 17.188 11.264 16.912 11.264C16.084 11.264 15.394 11.402 14.842 11.678C14.29 11.954 13.852 12.332 13.528 12.812C13.216 13.292 12.988 13.844 12.844 14.468C12.7 15.092 12.61 15.758 12.574 16.466H12.682C12.862 16.178 13.09 15.92 13.366 15.692C13.642 15.464 13.972 15.284 14.356 15.152C14.752 15.02 15.208 14.954 15.724 14.954C16.468 14.954 17.116 15.11 17.668 15.422C18.232 15.722 18.67 16.166 18.982 16.754C19.294 17.33 19.45 18.032 19.45 18.86C19.45 19.748 19.282 20.516 18.946 21.164C18.61 21.812 18.136 22.31 17.524 22.658C16.924 23.006 16.204 23.18 15.364 23.18C14.752 23.18 14.182 23.066 13.654 22.838C13.126 22.61 12.658 22.262 12.25 21.794C11.854 21.326 11.542 20.738 11.314 20.03C11.098 19.31 10.99 18.47 10.99 17.51ZM15.346 21.848C16.102 21.848 16.714 21.608 17.182 21.128C17.65 20.636 17.884 19.88 17.884 18.86C17.884 18.044 17.674 17.396 17.254 16.916C16.846 16.436 16.228 16.196 15.4 16.196C14.836 16.196 14.344 16.316 13.924 16.556C13.504 16.784 13.174 17.078 12.934 17.438C12.706 17.798 12.592 18.17 12.592 18.554C12.592 18.95 12.646 19.34 12.754 19.724C12.874 20.108 13.048 20.462 13.276 20.786C13.516 21.11 13.804 21.368 14.14 21.56C14.488 21.752 14.89 21.848 15.346 21.848Z" fill="white"/>
             </svg>            
         <p>Répartissez la salade dans 4 grands bols. Ajoutez les vermicelle de riz, les carottes, les concombres, les pousses de soja et la viande. Assaisonnez avec la sauce, saupoudrez de cacahuètes concassées et d'herbes ciselées. Servez et bloup !</p></div>
-
     </div>
 </section>
+
+<div class="button1">
+    <button class="button add-to-calendar">Ajouter au calendrier</button>
+</div>
 
 </body>
 </html>
