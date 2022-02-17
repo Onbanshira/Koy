@@ -21,7 +21,7 @@
 </header>
 
 <div class="searchbarre">
-    <input onkeyup="search()" type="text"
+    <input class="search"onkeyup="search()" type="text"
         name="search" placeholder="Rechercher">
 
 <button>Rechercher</button>
@@ -78,46 +78,40 @@
                 <p>Élevé</p></div>
             </div>
             <div class="jauges">
-                <p>Calorie</p>
-                <label for="file">File progress:</label>
+                <label for="file">Calorie</label>
                 <progress id="file" max="100" value="70"> 70% </progress>
                 <p>480/1872kcal</p>                 
-                <p>Protéines</p>
-                <label for="file">File progress:</label>
-                <progress id="file" max="100" value="70"> 70% </progress><p>480/1872kcal</p>
-                <p>Glucide</p>
-                <label for="file">File progress:</label>
-                <progress id="file" max="100" value="70"> 70% </progress><p>480/1872kcal</p>                 
-                <p>Lipide</p>
-                <label for="file">File progress:</label>
-                <progress id="file" max="100" value="70"> 70% </progress><p>480/1872kcal</p>                 
-                <p>Fibre</p>
-                <label for="file">File progress:</label>
-                <progress id="file" max="100" value="70"> 70% </progress><p>480/1872kcal</p>                
+                <label for="file">Protéines</label>
+                <progress id="file" max="100" value="65"> 70% </progress><p>480/1872kcal</p>
+                <label for="file">Glucide</label>
+                <progress id="file" max="100" value="81"> 70% </progress><p>480/1872kcal</p>                 
+                <label for="file">Lipide</label>
+                <progress id="file" max="100" value="40"> 70% </progress><p>480/1872kcal</p>                 
+                <label for="file">Fibre</label>
+                <progress id="file" max="100" value="60"> 70% </progress><p>480/1872kcal</p>                
             </div>
         </div>
     </div>
 </section>
 
     <section class="new">
+        <img class="fish" src="images/poisson.png" alt="">
         <p class="lesaviezvous">Le Bo bun est un plat d'origine vietnamienne. Il s’agit d’une salade complète, bien équilibrée et pleine de contraste de saveurs et de textures.</p>
     </section>
 
-
-    <div>
     <h2>Ingrédients</h2>
-
-    <ul>
-        <li>Tomate</li>
-        <li>Salade</li>
-        <li>Concombre</li>
-        <li>Carottes</li>
-        <li>Oignon</li>
-        <li>Ciboulettes</li>
-        <li>Steak</li>
-        <li>Cacahuètes</li>
-        <li>Sauce</li>
-        <li>Ail</li>
+    <div class="ingredients-container">
+        <ul>
+           <li>Tomate</li>
+           <li>Salade</li>
+           <li>Concombre</li>
+           <li>Carottes</li>
+           <li>Oignon</li>
+           <li>Ciboulettes</li>
+           <li>Steak</li>
+           <li>Cacahuètes</li>
+           <li>Sauce</li>
+           <li>Ail</li>
     </ul>
     </div>
 
@@ -128,7 +122,7 @@
             <circle cx="15.5" cy="16.5" r="15.5" fill="#FE5F55" fill-opacity="0.75"/>
             <path d="M16.39 23H14.842V14.018C14.842 13.67 14.842 13.376 14.842 13.136C14.854 12.896 14.866 12.674 14.878 12.47C14.89 12.254 14.902 12.032 14.914 11.804C14.722 11.996 14.548 12.158 14.392 12.29C14.236 12.422 14.038 12.59 13.798 12.794L12.43 13.91L11.602 12.848L15.076 10.148H16.39V23Z" fill="white"/>
             </svg>
-            <p class="etapeunep">Epluchez à moitié le concombre et coupez-le en julienne.</p></div>
+            <p>Epluchez à moitié le concombre et coupez-le en julienne.</p></div>
 
         <div class="step"><svg class="stepbtn" width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="15.5" cy="16.5" r="15.5" fill="#FE5F55" fill-opacity="0.75"/>

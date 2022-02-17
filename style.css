@@ -51,11 +51,23 @@ table {
 header {
     display: flex;
     justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    background: #FE5F55;
+    height: 100px;
+    width: 100%;
+}
+header a{
+    display: none;
 }
 
 label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
+}
+
+.search {
+    width: 300px;
 }
 
 .searchbarre {
@@ -93,14 +105,6 @@ label {
     text-align: center;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    background: #FE5F55;
-    height: 100px;
-    width: 100%;
-}
-
 #logo {
     align-items: center;
 }
@@ -134,8 +138,10 @@ header {
 }
 
 .jauges {
+    display: flex;
     width: 80%;
     background-color: blue;
+    flex-direction: column;
 }
 
 .time {
@@ -190,45 +196,54 @@ h2 {
     font-size: 40px;
 }
 
-/* .ingredients {
+/* .ingredients-container {
     display: flex;
+    flex-direction: row;
 } */
-
-.tomato {
-    background-color: #F9EEE7;
-    width: 68px;
-    height: 82px;
-    left: 0px;
-    top: 87px;
-}
 
 .step {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 0px;
+    gap: 10px;
 }
 
 .stepbtn {
     flex-shrink: 0;
 }
 
-
-.ingredients {
-    position: absolute;
-    width: 68px;
-    height: 82px;
-    left: 0px;
-    top: 87px;
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    gap: 10px;
 }
 
-.etapeunep {
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9EEE7;
+    height: 82px;
+    padding: 10px;
+}
+
+.ingredients-container {
+    display: flex;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
-@media (min-width: 370px) {
-    /* header {
-        width: 100%;
-    } */
+.fish {
+    width: 200px;
+}
 
+
+@media (min-width: 800px) {
+    header a{
+        display: block;
+    }
+    header svg{
+        display: none;
+    }
 }
