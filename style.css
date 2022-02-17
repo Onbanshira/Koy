@@ -57,9 +57,39 @@ header {
     height: 100px;
     width: 100%;
 }
+
 header a{
     display: none;
 }
+
+@font-face {
+    font-family: "Lato";
+    src: url("police/Lato.woff.2"), url("police/Lato.woff");
+  }
+  
+  @font-face {
+    font-family: "Lato";
+    src: url("police/lato-bold.woff.2"), url("police/lato-bold.woff");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "Lato";
+    src: url("police/lato-italic.woff2"), url("police/lato-italic.woff");
+    font-style: italic;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-style: italic;
+  }  
 
 label {
     display: block;
@@ -68,6 +98,36 @@ label {
 
 .search {
     width: 300px;
+    border-radius: 10px;
+    height: 42px;
+}
+
+.filters {
+    height: 42px;
+    margin-top: 10px;
+}
+
+.under-menu {
+    display: flex;
+    width: 364px;
+    height: 42px;
+    background-color: #D0C7C1;
+    opacity: 58%;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe {
+    border: 1px solid #D0C7C1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.menu {
+    margin-right: 50px;
 }
 
 .searchbarre {
@@ -81,6 +141,9 @@ label {
     margin: .4rem 0;
 }
 
+.fish {
+    height: fit-content;
+}
 
 .logo {
     width: 61px;
@@ -196,11 +259,6 @@ h2 {
     font-size: 40px;
 }
 
-/* .ingredients-container {
-    display: flex;
-    flex-direction: row;
-} */
-
 .step {
     margin-top: 20px;
     display: flex;
@@ -217,25 +275,26 @@ ul{
     flex-wrap: wrap;
     margin-right: 10px;
     gap: 10px;
+    justify-content: center;
 }
 
 li {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #F9EEE7;
     height: 82px;
     padding: 10px;
+    border-radius: 10px;
+    width: 80px;
+    border-bottom: 40px solid #FE5F55;
 }
 
 .ingredients-container {
     display: flex;
     margin-left: 10px;
     margin-top: 10px;
-}
-
-.fish {
-    width: 200px;
 }
 
 
