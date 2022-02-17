@@ -50,12 +50,10 @@ table {
 
 header {
     display: flex;
-    justify-content: space-evenly;
-    display: flex;
+    justify-content: space-between;
     align-items: center;
     background: #FE5F55;
     height: 100px;
-    width: 100%;
 }
 
 header a{
@@ -97,6 +95,7 @@ header a{
     display: flex;
     justify-content: center;
     font-style: black;
+    margin-bottom: 20px;
   }  
 
 label {
@@ -349,16 +348,48 @@ li {
 }
 
 .button1 {
+    display: flex;
+    /* justify-content: center; */
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
+
+.add-to-cart {
+    box-shadow: 0 8px 16px 0 rgba(9, 7, 126, 0.2), 0 6px 20px 0 rgba(33, 7, 93, 0.19);
+  }
+
+  .button-cart {
+    background-color: #525C90;
+    border-radius: 50%;
+    height: 56px;
+    width: 56px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button2 {
     padding: 40px;
     display: flex;
     justify-content: center;
+    position: sticky; 
+    bottom: 5px;
 }
 
 .add-to-calendar {
     box-shadow: 0 8px 16px 0 rgba(170, 12, 12, 0.2), 0 6px 20px 0 rgba(71, 3, 3, 0.19);
   }
 
-  .button {
+  .button-calendar {
     background-color: #FE5F55;
     border-radius: 20px;
     height: 50px;
