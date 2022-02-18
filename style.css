@@ -50,10 +50,15 @@ table {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     background: #FE5F55;
     height: 100px;
+    gap: 40%;
+}
+
+header svg {
+    margin-left: 7%;
 }
 
 header a{
@@ -95,7 +100,7 @@ header a{
     display: flex;
     justify-content: center;
     font-style: black;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }  
 
 label {
@@ -158,7 +163,9 @@ label {
 }
 
 .fish {
-    height: fit-content;
+    height: 95px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .logo {
@@ -230,7 +237,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .ingredients-pics {
@@ -338,9 +345,9 @@ li {
     align-items: center;
     background-color: #F9EEE7;
     height: 82px;
+    width: 80px;
     padding: 10px;
     border-radius: 10px;
-    width: 80px;
     border-bottom: 40px solid #FE5F55;
 }
 
@@ -350,9 +357,16 @@ li {
     margin-top: 10px;
 }
 
+.soja {
+    margin-top: 10px;
+}
+
+.steak {
+    margin-top: 10px;
+}
+
 .button1 {
     display: flex;
-    /* justify-content: center; */
     position: fixed;
     bottom: 40px;
     right: 10px;
@@ -369,21 +383,24 @@ li {
     width: 56px;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+}
+
+.cart-svg {
+    margin-left: 1px;
 }
 
 .button2 {
     padding: 40px;
     display: flex;
     justify-content: center;
+    align-items: baseline;
     position: sticky; 
     bottom: 5px;
 }
@@ -405,15 +422,26 @@ li {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
 @media (min-width: 800px) {
+
     header a{
         display: block;
         padding: 30px;
+        text-decoration: none;
+        color: white;
     }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FE5F55;
+        height: 100px;
+    }
+
     header svg{
         display: none;
     }
@@ -422,18 +450,25 @@ li {
         margin-top: 1px;
     }
 
+    .descriptioncontainer {
+        margin-top: 100px;
+        padding: 80px;
+    }
+
     .right-container {
     background-color: #F9EEE7;
     display: flex;
     width: 50%;
     flex-direction: column;
     float: right;
-    height: 970px;
+    height: 1068px;
+    border-radius: 10px;
     }
 
     .left-container {
         width: 45%;
     }
+
 
     .big-container {
         margin-top: 20px;
