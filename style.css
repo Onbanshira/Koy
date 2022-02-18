@@ -440,6 +440,7 @@ li {
         align-items: center;
         background: #FE5F55;
         height: 100px;
+        gap: 10%;
     }
 
     header svg{
@@ -465,13 +466,10 @@ li {
     border-radius: 10px;
     }
 
-    .left-container {
-        width: 45%;
-    }
-
-
     .big-container {
-        margin-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
     }
 
 }
