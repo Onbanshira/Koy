@@ -388,7 +388,7 @@ li {
     box-shadow: 0 8px 16px 0 rgba(9, 7, 126, 0.2), 0 6px 20px 0 rgba(33, 7, 93, 0.19);
   }
 
-  .button1.cart {
+  .cart {
     background-color: #525C90;
     border-radius: 50%;
     height: 56px;
