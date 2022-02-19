@@ -351,7 +351,7 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #F9EEE7;
+    background-color: #ecd7ca;
     height: 82px;
     width: 80px;
     padding: 10px;
@@ -373,6 +373,10 @@ li {
     margin-top: 10px;
 }
 
+.add-to-calendar {
+    box-shadow: 0 8px 16px 0 rgba(170, 12, 12, 0.2), 0 6px 20px 0 rgba(71, 3, 3, 0.19);
+  }
+
 .button1 {
     display: flex;
     position: fixed;
@@ -384,7 +388,7 @@ li {
     box-shadow: 0 8px 16px 0 rgba(9, 7, 126, 0.2), 0 6px 20px 0 rgba(33, 7, 93, 0.19);
   }
 
-  .button-cart {
+  .button1.cart {
     background-color: #525C90;
     border-radius: 50%;
     height: 56px;
@@ -412,10 +416,6 @@ li {
     position: sticky; 
     bottom: 5px;
 }
-
-.add-to-calendar {
-    box-shadow: 0 8px 16px 0 rgba(170, 12, 12, 0.2), 0 6px 20px 0 rgba(71, 3, 3, 0.19);
-  }
 
   progress {
       color: black;
